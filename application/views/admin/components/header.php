@@ -450,6 +450,18 @@
                                 <li class=""><a href="<?= base_url() ?>accms/admin">List</a></li>
                             </ul>
                         </li>
+                        <li class="submenu <?= $this->router->fetch_class() == 'admin' ?  'active' : '' ?>">
+                            <a href="javascript:void(0);">
+                                <span class="icon"><i class="fa fa-home"></i></span>
+                                <span class="text">Multilingual Module</span>
+                                <span class="arrow"></span>
+                                <span class="selected"></span>
+                            </a>
+                            <ul>
+                                <li class=""><a href="<?= base_url() ?>accms/multilingual/create">Create New</a></li>
+                                <li class=""><a href="<?= base_url() ?>accms/multilingual/">List</a></li>
+                            </ul>
+                        </li>
                     <?php } ?>
 
                 </ul><!-- /.sidebar-menu -->

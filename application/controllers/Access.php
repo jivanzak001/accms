@@ -35,7 +35,7 @@ class Access extends CI_Controller {
 		$config = array(
 			'app_title'	=>	'Set Staff Type'
 		);
-		
+
 		//$this->load->view('components/header', $config);
 		$this->app->display('access/staff_type',$data, $config);
 		//$this->load->view('components/footer');

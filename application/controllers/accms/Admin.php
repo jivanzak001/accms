@@ -47,7 +47,7 @@ class Admin extends CI_Controller {
 
 	public function edit($editId = 0){
 		$data = array();
-
+		
 		if($this->input->method() == 'post' && $this->validate()){
 			$updateData = $this->input->post();
 			$error = true;
@@ -71,14 +71,14 @@ class Admin extends CI_Controller {
 	       
             if (! $error )
             {
-                $this->error['error_profile_picture'] = $this->upload->display_errors();
+                $this->error['error_profile_ picture'] = $this->upload->display_errors();
             }
             else
             {
 				if($this->model_admin_admin->update($updateData))
-				{
-					redirect("accms/admin");
-				}
+			{
+				redirect("accms/admin");
+			}
 				else
 				{
 					$this->error['warning'] = $this->lang->line("error_warning");

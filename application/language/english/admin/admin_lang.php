@@ -35,6 +35,9 @@ $lang['input_back'] = 'Back';
 $lang['input_status'] = 'Status';
 $lang['input_enable'] = 'Enable';
 $lang['input_disable'] = 'Disable';
+$lang['language_name'] = 'Language name';
+$lang['language_ios_code'] = 'Language ISO Code';
+$lang['default'] = 'Default';
 
 
 

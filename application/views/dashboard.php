@@ -1,6 +1,4 @@
-
-
-                <!-- Start page header -->
+          <!-- Start page header -->
                 <div id="tour-11" class="header-content">
                     <h2><i class="fa fa-home"></i>Dashboard<span>dashboard & statistics</span></h2>
                     <div class="breadcrumb-wrapper hidden-xs">
